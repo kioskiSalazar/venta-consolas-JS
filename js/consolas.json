@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "marca":"playstation 1",
+       "precio":10000,
+       "img":"./public/playstation-one.jpg "
+    },
+    {
+       "id":2,
+       "marca":"playstation 2",
+       "precio":15000,
+       "img":"./public/play2.jpg "
+    },
+    {
+       "id":3,
+       "marca":"playstation 3",
+       "precio":30000,
+       "img":"./public/play3.jpg "
+    },
+    {
+       "id":4,
+       "marca":"playstation 4",
+       "precio":60000,
+       "img":" ./public/play4.webp"
+    },
+    {
+       "id":5,
+       "marca":"playstation 5",
+       "precio":150000,
+       "img":"./public/play5.jpg "
+    },
+    {
+       "id":6,
+       "marca":"xbox 360",
+       "precio":20000,
+       "img":"./public/xbox360.webp "
+    },
+    {
+       "id":7,
+       "marca":"xbox one",
+       "precio":60000,
+       "img":"./public/fat.jpg "
+    },
+    {
+       "id":8,
+       "marca":"xbox x",
+       "precio":100000,
+       "img":"./public/x.jpg "
+    }
+ ]

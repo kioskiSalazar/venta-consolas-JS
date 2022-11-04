@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/* estilo nav */
+nav {
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.693), rgba(0, 0, 0, 0.493)), url(../public/portada-2.jpg);
+    width: 100%;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.titulo {
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 50px;
+    height: 170px;
+    display: flex;
+margin: auto;
+}
+
+.titulo h1 {
+    font-size: 80px;
+    margin: auto;
+}
+
+.ver-carrito {
+    font-size: 50px;
+    height: 52px;
+    display: contents;
+}
+.btn {
+    font-size: 50px;
+    height: 52px;
+    display: contents;
+    background-color: rgba(42, 40, 40, 0.733) !important;
+    align-items: center;
+    color: aliceblue !important;
+    margin-left: 30px;
+}
+.cantidad {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 16px;
+    position: absolute;
+    display: none;
+}
+
+/* main */
+main {
+    background-color: rgb(126, 124, 133)
+}
+
+/* estile terjeta */
+.stockConsolas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 27px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.tarjeta {
+    box-shadow: 0 4px 8px 0 black;
+    min-width: 295px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.tarjeta img {
+    width: 190px;
+    height: 248px;
+}
+
+.tarjeta button {
+    border: none;
+    padding: 13px;
+    outline: 0;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.tarjeta button:hover {
+    opacity: 0.8;
+}
+/* estilo ver carrito */
+.contenedor-carrito {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+.contenedor-carrito::-webkit-scrollbar {
+    display: none;
+}
+.compraCarrito{
+    display: flex;
+    justify-content: space-around;
+    background-color: #292828;
+    color: aliceblue;
+    width: 100%;
+}
+.compraCarrtio-h1 {
+    justify-self: start;
+}
+.cierreCarrito{
+cursor: pointer;
+background-color: #292828;
+color: aliceblue;
+}
+.modalContent h1{
+    cursor: pointer;
+}
+.finalizar{
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: darkgrey;
+}
+.modalContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+} 
+.modalContent img {
+    height: 150px;
+    width: 150px;
+}
+.totalPrecio {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
